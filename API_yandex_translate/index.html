@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <label for="word">Введите слово для перевода
+        <input type="text" id="word" class="source-word">
+    </label>
+    <button>Перевести</button>
+    <div class="other">
+        <span>Язык слова</span>
+        <select class="source-lang" id="">
+            <option value="ru">Русский</option>
+            <option value="en">Английский</option>
+            <option value="pl">Польский</option>
+        </select>
+        <span>Язык перевода</span>
+        <select class="response-lang" id="">
+            <option value="pl">Польский</option>
+            <option value="en">Английский</option>
+            <option value="ru">Русский</option>
+        </select>
+    </div>
+    <div class="translate"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
